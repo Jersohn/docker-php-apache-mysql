@@ -4,7 +4,7 @@ pipeline{
         stage("Run docker compose"){
             steps{
                 echo "========executing ============"
-                sh'docker compose up -d'
+                sh'docker compose up'
             }
          
         }
