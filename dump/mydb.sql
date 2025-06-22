@@ -7,8 +7,9 @@ CREATE TABLE `Person` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-INSERT INTO `Person` (`id`, `name`) VALUES
-(1, 'Ranjit'),
-(2, 'Rakesh'),
-(3, 'Dinesh'),
-(4, 'Karthik');
+INSERT INTO `Person` (`id`, `name`, `age`) VALUES
+(1, 'Ranjit', 20),
+(2, 'Rakesh', 25)
+(3, 'Dinesh', 18),
+(4, 'Karthik', 28);
+(5, 'Jers', 30);
