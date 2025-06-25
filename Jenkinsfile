@@ -5,7 +5,7 @@ pipeline {
         stage("Run docker compose") {
             steps {
                 echo "======== Démarrage des conteneurs ========="
-                sh 'docker compose up -d'
+                sh 'docker compose up'
             }
         }
     }
